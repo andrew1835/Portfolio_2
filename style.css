@@ -9,6 +9,7 @@
 /* set the wallpaper */
 body {
     background-image: url("https://sfwallpaper.com/images/backgrounds-white-7.jpg") ;
+    padding-top: 1vw;
 }
 
 /* makes it so that you can see the container, so that there's margin between the content and the edges/nav bar, and so that and so that the container's width is based on screensiz */
