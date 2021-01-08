@@ -17,8 +17,9 @@ body {
 /* makes it so that you can see the container, so that there's margin between the content and the edges/nav bar, and so that and so that the container's width is based on screensiz */
 .container {
     background-color: white;
-    margin: 4vw;
-    width: 90vw;
+    margin: auto;
+    width: 90%;
+    margin-top: 2vw;
 }
 
 /* Makes it so that there's space around the heading of each page and sets the color of the heading of each page */
@@ -35,9 +36,9 @@ form {
 /* sepearte code for the portfolio specifically in order to make it more similar to screenshot */
 .containerPortfolio {
     background-color: white;
-    margin: 4vw;
-    width: max-content;
-    padding: 1vw
+    margin: auto;
+    width: 90%;
+    margin-top: 2vw;
 }
 
 /* creates space between the thumbnails in the portfolio */
