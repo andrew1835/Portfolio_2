@@ -9,7 +9,9 @@
 /* set the wallpaper */
 body {
     background-image: url("https://sfwallpaper.com/images/backgrounds-white-7.jpg") ;
-    padding-top: 70px;
+    padding-top: 2vw;
+    margin-top: 2vw;
+    z-index: 1;
 }
 
 /* makes it so that you can see the container, so that there's margin between the content and the edges/nav bar, and so that and so that the container's width is based on screensiz */
@@ -49,6 +51,7 @@ form {
     position: fixed;
     top: 0%;
     width: 100%;
+    z-index: 2;
 }
 
 
