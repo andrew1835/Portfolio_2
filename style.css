@@ -1,0 +1,67 @@
+
+/* set the color of the Navbar */
+.navbar-brand {
+    background-color: lightgray;
+    padding: 0.5vw;
+    margin-left: 3.5vw;
+    
+}
+/* set the wallpaper */
+body {
+    background-image: url("https://sfwallpaper.com/images/backgrounds-white-7.jpg") ;
+}
+
+/* makes it so that you can see the container, so that there's margin between the content and the edges/nav bar, and so that and so that the container's width is based on screensiz */
+.container {
+    background-color: white;
+    margin: 4vw;
+    width: 90vw;
+}
+
+/* Makes it so that there's space around the heading of each page and sets the color of the heading of each page */
+h1 {
+    padding: 1vw;
+    color: teal;
+}
+
+/* creates space between the items in the form */
+form {
+    padding: 1vw;
+}
+
+/* sepearte code for the portfolio specifically in order to make it more similar to screenshot */
+.containerPortfolio {
+    background-color: white;
+    margin: 4vw;
+    width: max-content;
+    padding: 1vw
+}
+
+/* creates space between the thumbnails in the portfolio */
+.row {
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-right: 1vw;
+}
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+
+.sampleWork {
+    width: 90vw;
+    margin: 2vw;
+}
+
+.screenshots {
+    width: 60%;
+}
+
+.contactInfo {
+    width: 90vw;
+    margin: 2vw;
+    padding: 1vw;
+}
