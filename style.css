@@ -19,7 +19,7 @@ body {
     background-color: white;
     margin: auto;
     width: 90%;
-    margin-top: 8vw;
+    margin-top: 2vw;
 }
 
 /* Makes it so that there's space around the heading of each page and sets the color of the heading of each page */
@@ -57,9 +57,8 @@ form {
 
 
 .sampleWork {
-    width: 90vw;
     margin: auto;
-    padding: 2vw
+    padding: 1vw;
 }
 
 .screenshots {
@@ -67,7 +66,6 @@ form {
 }
 
 .contactInfo {
-    width: 90vw;
     margin: auto;
     padding: 1vw;
 }
