@@ -19,7 +19,7 @@ body {
     background-color: white;
     margin: auto;
     width: 90%;
-    margin-top: 2vw;
+    margin-top: 8vw;
 }
 
 /* Makes it so that there's space around the heading of each page and sets the color of the heading of each page */
@@ -34,12 +34,12 @@ form {
 }
 
 /* sepearte code for the portfolio specifically in order to make it more similar to screenshot */
-.containerPortfolio {
+/* .containerPortfolio {
     background-color: white;
     margin: auto;
     width: 90%;
     margin-top: 2vw;
-}
+} */
 
 /* creates space between the thumbnails in the portfolio */
 .row {
@@ -58,7 +58,8 @@ form {
 
 .sampleWork {
     width: 90vw;
-    margin: 2vw;
+    margin: auto;
+    padding: 2vw
 }
 
 .screenshots {
@@ -67,11 +68,21 @@ form {
 
 .contactInfo {
     width: 90vw;
-    margin: 2vw;
+    margin: auto;
     padding: 1vw;
 }
 
 .sampleResume {
     width: 90vw;
     margin: 2vw; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 18vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
 }
